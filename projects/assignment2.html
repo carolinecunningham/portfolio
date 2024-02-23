@@ -37,7 +37,7 @@
 			<h2>Discoveries & Insights</h2>
 
 			<figure>
-				<img src="graphs/A2_Graph8.png" alt="Total Number of Properties Owned by Entity Type" />
+				<img src="graphs/A2_Graph8.png" alt="Total Number of Properties Owned by Entity Type" style="max-width: 75%;"/>
 				<figcaption>
                 To understand the relative prevalence of different buyers on the market, I plotted each type of investor against the total number of properties they owned. Data entries either had single buyer types or multiple; for multiple buyer types, I excluded low-frequency buyers for simplicity of viewing. I also color-coded corporate owners and non-corporate owners given that MAPC excludes GSE / Banks from flipping data and Trusts are individuals. In the graph, we can see that LLCs are the second-highest purchasers of property, just-behind the government-sponsored Freddie Mac / Fannie Mae (GSE), demonstrating the prevalence of institutional corporate investors in the Boston housing market.
 
@@ -73,45 +73,53 @@
 			</figure>
 
 			<figure>
-				<img src="graphs/A2_Graph4.png" alt="" />
+				<img src="graphs/A2_Graph4.png" alt="Average Profit by Flip Term across Boston Zip Codes" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					I turned to examining my third research question on how average profit from flipped investments (greater than 0 price difference) varies by residential zip code, separating the data into the flip horizons to better elucidate how spatial patterns may vary with investment type. Color-coding profits with discrete values allow for an easier profit comparison, and I excluded outliers (price differences > ~$40,000,000) for meaningful results. We see that high-income neighborhoods (02116) have profitable short-term flips, but as we increase the flip duration, several other high profit regions appear (02215, 02215, 02109, 02110). That there are multiple zip codes with these higher profits indicate that many communities of Boston are vulnerable to speculation, although more wealthy areas seem more lucrative for quick deals.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="../../" alt="" />
+				<img src="graphs/A2_Graph10.png" alt="Total Number of Investor-Investor Purchases by Zip Code" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					I then investigated the spatial distribution of investor-investor transactions to further elucidate what neighborhoods may be favored for flipping. For ease of viewing, I filtered out all zip codes with a transaction frequency of less than 3. The graph further proves that most investor-investor transactions occur in the wealthiest neighborhood, as we see that 02116 (Back Bay) has the most occurrences. Interestingly, 02210 (Seaport) has the fewest of the zip codes making the chart, perhaps because of the recent development and commercial focus.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="graphs/A2_Graph5.png" alt="Average Investment Profit for Multi-Family Residences by Investor Type" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					I then turned to analyzing how much of an average profit investors have made from flipping family residences (strangely, excluding non-flips removed Institutional Investors data from the results). I also filtered out negative profit cases (negative price differences), as these samples did not fit my research goal. The results demonstrate that Large and Medium investors made greater profits than Non-investor or Small investors, and as MAPC defines investor categories by purchase amounts, the data shows that owners with more resources have an advantage when flipping. The large profit margins shown demonstrate that investors are making substantial money through flipping (likely from making building extensions that raise costs); however, for many of these categories there was a small sample size, so further data would be needed to verify the conclusions.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="graphs/A2_Graph6.png" alt="Average Investment Profit for Apartments and Condos by Investor Type" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					The MAPC report mentions renters as frequently suffering from investors flipping properties, so I applied the same analysis as above but for apartment and condominium properties. Outside the context of residential properties, it seems as though the average profits are more similar between the different investor sizes, although again more data would be helpful to add rigor to this conclusion. Further, we see that there are high profits involved in flipping apartments and condos, signaling that these investments may pose financial barriers for residents.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="graphs/A2_Graph11.png" alt="Average Price Difference between Transactions as a Function of Lot Size and Year Built" />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+					Here, I further investigated the impact of amenity features, specifically lot size and year built, on the average price difference in flipped transactions. I filtered out nonsensical price increases (e.g. huge price increase due to $1 originally selling price), although some very large price increases remained, so I used a logarithmic scale accordingly. Surprisingly, there appears to be a larger price increase for newer buildings, which went against my intuition that flipping (and fixing-up) older buildings would lead to larger price increases. I cannot discern a significant relationship between lot size and price increase; the high price differences for lot sizes less than 10,000 appear like noise.
 				</figcaption>
 			</figure>
+
+			<figure>
+				<img src="graphs/A2_Graph9.png" alt="Flip Percentage Price Change by Housing Amenities for Residences" />
+				<figcaption>
+					Here, I investigate how a flipped property’s amenities (total rooms, bathrooms, and bedrooms) aff\ects the percentage price change. For chart modifications, I (1) excluded commercial properties due to their distinct building patterns from residential homes, (2) only considered data for flipped properties, and (3) included a logarithmic scale given the presence of outliers. The graph shows no significant trend between the building features and flipped price percentage change; perhaps other features such as zip code or completed renovations have greater influence. 
+				</figcaption>
+			</figure>
+
 		</section>
 
 		<section>
 			<h2>Summary</h2>
 
-			<p>WRITE FINAL SUMMARY HERE.</p>
+			<p>.</p>
 		</section>
 	</main>
 </body>
