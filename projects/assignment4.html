@@ -18,15 +18,16 @@
 	</header>
 
 	<main>
-    <h2>Proposition: [STATE PROPOSITION]</h2>
+    <h2>Proposition: Across the globe, average temperatures have increased over the past two decades, serving as a warning signal for climate health.
+	</h2>
 
 		<section>
       <h3>FOR the Proposition</h3>
 
       <figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="graphs/A4_Pro_Visualization.png" alt="" />
 				<figcaption>
-					BRIEF CAPTION HERE.
+					Temperature Change with Respect to Baseline Climatology has Increased for Countries in 2022 as Compared to 1990, IMF
 				</figcaption>
 			</figure>
 
@@ -35,9 +36,14 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>Data Section: My first decision was to hand-pick what two years of data to contrast to emphasize rising global temperatures. To maximize the contrast effect, I looked for a year that has a positive, linear relationship with 2022 data to highlight a temperature increase. Selecting a particular year of data because it fits the point you want to make is deceptive in nature, and I hoped that choosing the most recent year (2022) as the dependent variable would make my choice of independent variable less questionable. Deception Score: -1.5
+				</li>
+				<li>Outlier Exclusion: My second decision was to exclude 2 countries from the dataset for the sole reason that their data was anti-pattern. Given the large number of countries, I do feel like this omission is easy to miss for a viewer, but it would make me vulnerable to anyone asking for follow-up information or my raw data. Deception Score: -2
+				</li>
+				<li>Trend Line: To further emphasize my point that global trends are increasing, along with the individual data points I displayed a linear regression trend line. Adding this trend line gives mathematical credibility to my assertion and guides the viewer’s eye towards seeing the data points as fitting a positive, linear model. I also include the formula below for further emphasis but omit the weak R^2 of 0.39. Deception Score: -0.5.
+				</li>
+				<li>Color: My final design decision was to put the data points in red as a visual signal of warming temperatures. Inspired by last week’s visualization from the reading group, I hoped the bold color would make the message of the visualization more memorable and persuasive. Deception Score: -0.5. 
+				</li>
 			</ul>
     </section>
 
@@ -45,9 +51,9 @@
       <h3>AGAINST the Proposition</h3>
 
       <figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="graphs/A4_Con_Visualization.png" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+          Percent Change in Temperature from 1990 to 2022 (with Respect to Baseline Climatology) has Stayed Cnstant in the Majority of Countries, IMF
 				</figcaption>
 			</figure>
 
@@ -56,9 +62,14 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>Percent Transformation: Since the goal of this assignment is to be persuasive at all costs, I chose to transform the data by calculating percentage change from 1990 to 2022. As compared to the direct difference in average temperatures, percentage change has significantly more values taken on by the data, which allowed me to imply that smaller percentage changes are insignificant. Deception Score: -1
+				</li>
+				<li>Map: For this visualization, I chose to display the data for each country on a global map, allowing viewers insight into where data was from. Additionally, since most countries had small percent changes in temperature, the map adds visual credibility to my stance that temperature remained similar in the majority of locations. Deception Score: +0.5.
+				</li>
+				<li>Colors: I used a color where a “neutral” / gray shade represents a small, positive percentage change. As we tend to associate neutral with 0, this coloring is deceptive through supporting the argument while not quite matching up with the data. I also chose blue as positive and red as negative, inverting associations, to decrease the emphasis on any rising global temperatures. Deception Score: -1.5
+				</li>
+				<li> Color Scale: For the color scheme, I also showed a continuous color scale as opposed to discrete steps to further add ambiguity to the values of the percent differences. Depending on the viewer, this could backfire, as a savvy viewer could correctly interpret that neutral colors are “unclear” as a negative towards the designer. Deception Score: -1.5
+				</li>
 			</ul>
     </section>
 
